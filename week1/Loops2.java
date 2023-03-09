@@ -1,6 +1,6 @@
 package week1;
 
-public class New {
+public class Loops2 {
 
     public static void main(String[] args) {
 
@@ -37,6 +37,7 @@ public class New {
         }
 
         System.out.println("--------");
+        //Diamond Upside
 
         for (int x = 0; x < 5; x++) {
 
@@ -48,6 +49,7 @@ public class New {
             for (int y = x; y >= 0; y--) { // y = 1 , y = 2 , y = 3 , y = 4 , y = 5
                 System.out.print("*");
             }
+
             System.out.println("");
         }
 
