@@ -1,6 +1,6 @@
 package week2Abstract;
 
-public abstract class Artist {
+public abstract class Artist extends Occupation{
     private String artType;
     private String regional;
     private String name;
@@ -16,8 +16,9 @@ public abstract class Artist {
         return this.artType;
     }
 
-    public String getAllDetial(){
-        return "Art type = " + this.artType + " Regional : " + this.regional + " Name : " + this.name + " Age : " + this.age;
+    public String getAllDetial() {
+        return "Art type = " + this.artType + " Regional : " + this.regional + " Name : " + this.name + " Age : "
+                + this.age;
     }
 
     public void setDetials(String artType, String regional, String name, int age) {

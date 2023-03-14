@@ -1,7 +1,7 @@
 package week2Abstract;
 
 public class Musican extends Artist {
-    String instrument;
+    private String instrument;
 
     public Musican() {
 
@@ -21,7 +21,12 @@ public class Musican extends Artist {
     }
 
     public String getMusican() {
-
         return this.getAllDetial() + " Instrument : " + this.instrument;
     }
+
+    @Override
+    public void payTax() {
+       System.out.println("I should pay tax : $" + this.taxRate * 10000);
+    }
+
 }
