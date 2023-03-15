@@ -21,6 +21,13 @@ public class Who {
         LocalDate dateOfBrith = LocalDate.of(1986, 7, 8);
         System.out.println(dateOfBrith);
 
+        //(x + y)
+        
+        System.out.println(calReminder(33,33,5));
+
 
     }
+
+
+
 }
